@@ -20,7 +20,7 @@ export default function useSyncUser() {
       email:     user.primaryEmailAddress?.emailAddress || "",
       firstName: user.firstName || "",
       lastName:  user.lastName || "",
-      username:  user.username || "",     // 👈 Added username support
+      username:  user.username || "",     
       avatar:    user.imageUrl || "",
     };
 
